@@ -1,0 +1,177 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 8px 10px 8px 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .5em;
+  margin-top: 10px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar
+{
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-Toggle{
+  clear:both;
+  margin-top: -30px;
+}
+#nav-list{
+  margin-top: 10px;
+}
+ul li:hover
+{
+    color:#00EB2B;
+}
+#nav-list a{
+  color:#951C49;
+  text-align: :center;
+}
+#nav-list a:hover{
+  background: :#E7E7E7;
+}
+#nav-list a span{
+  font-size: :1.8 em;
+}
+.pointer_zoom:hover
+{
+  font-size: 14px;
+}
+#phone a{/*Phone Number*/
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div{
+  color: #557c3e;
+  text-align: right;
+}
+#phone div:hover
+{
+  font-size: 14px;
+  color:#00EB2B;
+  cursor: pointer;
+}
+#IGP-tile, #Rasta-App-tile, #map-tile{
+  height: 250px;
+  width: 70%;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  position: relative;
+  border:2px solid #3F0C1F;
+  overflow: hidden;
+}
+#IGP-tile:hover, #Rasta-App-tile:hover, #map-tile:hover{
+box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#IGP-tile{
+  background: url('../images/IGP.PNG') no-repeat;
+  background-position: center;
+}
+#Rasta-App-tile{
+  background: url('../images/Rasta App.PNG') no-repeat;
+  background-position: center;
+}
+
+#IGP-tile span, #Rasta-App-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6 em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #228B22;
+  opacity: 1;
+}
+/**************Large Device**********/
+@media (min-width:1200px) {
+}
+/*************Medium Device**********/
+@media (min-width:992px) and (max-width:1199px) {
+  /*HEADER*/
+  #logo-img {
+    background: url('../images/logo_medium.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 5px 5px 5px 0;
+  }
+  /*end header*/
+}
+
+/*************Small Device**********/
+@media (min-width:768px) and (max-width:991px){
+  #logo-img {
+    background: url('../images/logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+}
+/*************Extra Small*********/
+@media (max-width:767px){
+  /*header*/
+.navbar-brand{
+  padding-top: 10px;
+  height: 80px;
+}
+
+.navbar-brand h1{/*CID Name*/
+  padding-top: 10px;
+  font-size: 5vw;/*1% of viewport width*/
+}
+
+.navbar-brand p {/*Tagline*/
+  font-size: .6em;
+  margin-top: 12px;
+}
+.navbar-brand p img{/*eagel logo*/
+  height:20px;
+}
+#collapsable-nav a{/* collapsable nav glphicons*/
+font-size: 1.2em;
+}
+
+#collapsable-nav a span{/* collapsable nav glphicons*/
+font-size: 1.0em;
+margin-right: 5px;
+}
+}
