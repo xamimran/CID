@@ -54,7 +54,7 @@
                 <span class="glyphicon glyphicon-user"></span><br class="hidden-xs">Police Manag</a>
             </li>
             <li class="pointer_zoom">
-              <a href="Login.html">
+              <a href="login.html">
                 <span class="glyphicon glyphicon-off"></span><br class="hidden-xs">Login</a>
               </li>
           </ul><!-- #nav-list -->
@@ -66,70 +66,58 @@
 
 <body>
 
-
-
-  <div class="firRegForm"><h1>Complain Regitration Form</h1></div>
-  <div class="main">
-    <form>
-      <div id="name">
-        <h2 class="name">Name</h2>
-        <input class="firstname" type="text" name="first_name"><br>
-        <label class="firstlabel">First Name</label>
-        <input class="lastname" type="text" name="last_name"><br>
-        <label class="lastlabel">Last Name</label>
-      </div>
-
-      <h2 class="name">Company</h2>
-      <b><i><input class="company" type="text" name="company"  placeholder="if (any) "></i></b>
-
-      <h2 class="name">Email</h2>
-      <input class="email" type="text" name="email">
-
-      <h2 class="name">Contact</h2>
-      <input class="tel" type="text" name=".tel" placeholder="+92XX-1234567">
-      <label class"tel-number">TEL<i>(if any)</i></label>
-      <input class="number" type="text" name="phone" placeholder="+92XXX1234567">
-      <label class="phone-number">Phone Number</label>
-
-      <h2 class="name">Day</h2>
-      <input class="date" type="text" name="day" placeholder="Day">
-      <input class="date" type="text" name="month" placeholder="Month">
-      <input class="date" type="text" name="year" placeholder="Year">
-
-      <h3 class="name">Crime</h3>
-      <select class="option" name="subject">
-        <option disabled="disabled" selected="selected">--Crime Type</option>
-        <option> Civil Rights</option>
-        <option> Robbery</option>
-        <option> Rape</option>
-        <option> Kidnapping</option>
-        <option> Murder</option>
-        <option> Terrorism</option>
-        <option> Fighting</option>
-        <option> White-Collar Crime</option>
-        <option> Cyber Crime</option>
-        <option> Fraud</option>
-      </select>
-
-      <h2 class="name">Crime Details</h2>
-      <input class="crime" type="text" name="crime"><br>
-
-
-      <label class="radio">
-      <input  type="radio"  checked="checked" name="">
-      <span class="checkmark"><i>I heard by that I have read all the above informatiom carefully</i></span>
-
-    </label>
-
-    <div class="submit">
-    <button type="submit">Register</button>
+<div class="firRegForm"><h1>FIR Regitration Form</h1></div>
+<div class="main">
+  <form>
+    <div id="name">
+      <h2 class="name">Name</h2>
+      <input class="firstname" type="text" name="first_name"><br>
+      <label class="firstlabel">First Name</label>
+      <input class="lastname" type="text" name="last_name"><br>
+      <label class="lastlabel">Last Name</label>
     </div>
-    </form>
 
+    <h2 class="name">Company</h2>
+    <input class="company" type="text" name="company">
+
+    <h2 class="name">Email</h2>
+    <input class="email" type="text" name="email">
+
+    <h2 class="name">Contact</h2>
+    <input class="tel" type="text" name=".tel" placeholder="+92XX-1234567">
+    <label class"tel-number">TEL<i>(if any)</i></label>
+    <input class="number" type="text" name="phone" placeholder="+92XXX1234567">
+    <label class="phone-number">Phone Number</label>
+
+    <h3 class="name">Crime</h3>
+    <select class="option" name="subject">
+      <option disabled="disabled" selected="selected">--Crime Type</option>
+      <option> Civil Rights</option>
+      <option> Robbery</option>
+      <option> Rape</option>
+      <option> Kidnapping</option>
+      <option> Murder</option>
+      <option> Terrorism</option>
+      <option> Fighting</option>
+      <option> White-Collar Crime</option>
+      <option> Cyber Crime</option>
+      <option> Fraud</option>
+    </select>
+
+    <label class="radio">
+    <input  type="radio"  checked="checked" name="">
+    <span class="checkmark"><i>I heard by that I have read all the above informatiom carefully</i></span>
+
+  </label>
+
+  <div class="submit">
+  <button type="submit">Register</button>
   </div>
+  </form>
+
+</div>
 
 </body>
-
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>

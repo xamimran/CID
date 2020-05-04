@@ -65,6 +65,7 @@
 
 /***Login Page Design End ***/
 
+/**** General Header And Body Design****/
 body {
   font-size: 16px;
   color: #fff;
@@ -143,20 +144,7 @@ ul li:hover
 {
   font-size: 14px;
 }
-#phone a{/*Phone Number*/
-  text-align: right;
-  padding-bottom: 0;
-}
-#phone div{
-  color: #557c3e;
-  text-align: right;
-}
-#phone div:hover
-{
-  font-size: 14px;
-  color:#00EB2B;
-  cursor: pointer;
-}
+
 #IGP-tile, #Rasta-App-tile, #map-tile{
   height: 250px;
   width: 70%;
@@ -243,3 +231,284 @@ font-size: 1.0em;
 margin-right: 5px;
 }
 }
+/**** General Header And Body Design****/
+
+
+/****Cases.html****/
+
+Usama Add Cases Page Design  Here
+
+
+
+
+/****FIR Design****/
+button{
+  border: 1px solid #338033;
+  font-size: 18px;
+  border-radius: 0px;
+}
+button{
+  background: none;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  color: #EBDFE1;
+  font-size: 20px;
+  font-family:Arial Black,sans-serif;
+}
+#FIRbtn{
+  background-color:#338033;
+  float: right;
+  width: 100px;
+  height: 50px;
+  border: 2px solid  #338033;
+  font-size: 18px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-right:20px;
+}
+#FIRbtn:hover{
+  background: #C71C36;
+  transition: .6s;
+  cursor: pointer;
+}
+
+#FIRbtn2{
+  background-color:#338033;
+  float: left;
+  width: 100px;
+  height: 50px;
+  border: 2px solid  #338033;
+  font-size: 18px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-right:20px;
+
+}
+#FIRbtn2:hover{
+  background: #C71C36;
+  transition: .6s;
+  cursor: pointer;
+}
+
+
+
+
+.firRegForm
+{
+  width:800px;
+  background-color:rgb(0,0,0,0.6);
+  margin: auto;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.main{
+  background-color:rgb(0,0,0,0.3);
+  width:800px;
+  margin: auto;
+}
+form{
+  padding: 10px;
+}
+#name{
+  width: 100%;
+  height: 100px;
+}
+.name{
+  margin-left: 25px;
+  margin-top: 30px;
+  width:125px;
+color: white;
+font-size: 18px;
+font-weight: 700;
+}
+.firstname{
+  position:relative;;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+.lastname{
+  position: relative;
+  left:417px;
+  top:-80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.firstlabel{
+  position: relative;
+  color:#E5E5E5;
+  text-transform:capitalize;
+  font-size: 14px;
+  left: 203px;
+  top:-45px;
+}
+.lastlabel{
+  position: relative;
+  color:#E5E5E5;
+  text-transform:capitalize;
+  font-size: 14px;
+  left: 500px;
+  top:-80px;
+}
+.company{
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 532px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
+.email
+{
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 400px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
+.tel{
+text-align: center;
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 180px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
+.number{
+  text-align: center;
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 170px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
+.tel-number
+{
+  position: relative;
+  text-transform: capitalize;
+  color:#E5E5E5;
+  font-size: 16px;
+  left: 150px;
+  top:-2px;
+}
+.phone-number{
+  position: relative;
+  text-transform: capitalize;
+  color:#E5E5E5;
+  font-size: 16px;
+  left: 50px;
+  top:-2px;
+}
+.option{
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  width: 532px;
+  height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+  outline: none;
+  overflow: hidden;
+}
+.option option{
+  font-size: 20px;
+}
+.date
+{
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 80px;
+  margin-right: 30px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
+.crime
+{
+  position: relative;
+  left: 200px;
+  top:-60px;
+  line-height: 100px;
+  width: 532px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+  overflow:hidden;
+}
+.checkmark
+{
+
+  margin-left: 5px;
+  left: -500;
+  color: white;
+  font-size: 20px;
+  margin-top: 300px;
+}
+.radio{
+  display: inline-block;;
+  padding-right: 40px;
+  font-size: 25px;
+  margin-left: 5px;
+margin-bottom: 50px;
+  color: white;
+  left: 100px;
+}
+.radio input{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+.submit{
+  background-color: #3BAF9F;
+  display: block;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  border-radius: 30px;
+  width: 150px;
+  border: 2px solid #366473;
+  outline:none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+}
+.submit:hover{
+  background-color:#800000;
+}
+/****FIR Design End****/
+
+/***Cases.html Design End***/
