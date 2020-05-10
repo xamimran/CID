@@ -359,16 +359,47 @@ font-weight: 700;
   left: 500px;
   top:-80px;
 }
+.cnic{
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 250px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
 .company{
   position: relative;
   left: 200px;
   top:-37px;
   line-height: 40px;
-  width: 532px;
+  width: 400px;
   border-radius: 6px;
   padding: 0 22px;
   font-size: 16px;
   color:#555;
+}
+.age{
+  position: relative;
+  left: 200px;
+  top:-37px;
+  margin-top: 20px;
+  line-height: 40px;
+  width: 100px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
+.sex{
+  position: relative;
+  text-transform: capitalize;
+  color:#E5E5E5;
+  font-size: 16px;
+  left: 120px;
+  top:-2px;
 }
 .email
 {
@@ -376,7 +407,7 @@ font-weight: 700;
   left: 200px;
   top:-37px;
   line-height: 40px;
-  width: 400px;
+  width: 250px;
   border-radius: 6px;
   padding: 0 22px;
   font-size: 16px;
@@ -441,6 +472,19 @@ text-align: center;
 .option option{
   font-size: 20px;
 }
+.adress{
+  text-align: center;
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 550px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+
+}
 .date
 {
   position: relative;
@@ -492,6 +536,33 @@ margin-bottom: 50px;
   cursor: pointer;
   outline: none;
   margin-top: 20px;
+}
+.rank{
+  text-align: center;
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 150px;
+  margin-right: 30px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+}
+.station{
+  text-align: center;
+  position: relative;
+  left: 200px;
+  top:-37px;
+  line-height: 40px;
+  width: 200  px;
+  margin-right: 30px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color:#555;
+
 }
 .submit{
   background-color: #3BAF9F;

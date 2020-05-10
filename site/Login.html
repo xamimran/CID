@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>CID</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
-<body>
+
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="Main Page.html" class="pull-left visible-md visible-lg">
+          <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
 
           <div class="navbar-brand">
-            <a href="Main Page.html"><h1>CRIME INVESTIGATION DEPARTMENT</h1></a>
+            <a href="index.html"><h1>CRIME INVESTIGATION DEPARTMENT</h1></a>
             <p>
               <img src="images/tag_logo.png" alt="CID">
               <span ><h6 style="font-family: MinecrafterReg">WE SERVE HUMANITY</h6></span>
@@ -46,11 +46,11 @@
                 <span class="glyphicon glyphicon-thumbs-up"></span><br class="hidden-xs">Civil Comp Status</a>
             </li>
             <li class="pointer_zoom">
-              <a href="Cases.html">
+              <a href="Login.html">
                 <span class="glyphicon glyphicon-folder-open"></span><br class="hidden-xs">Cases</a>
             </li>
             <li class="pointer_zoom">
-              <a href="Police Managment.html">
+              <a href="Login.html">
                 <span class="glyphicon glyphicon-user"></span><br class="hidden-xs">Police Manag</a>
             </li>
             <li class="pointer_zoom">
@@ -63,8 +63,39 @@
     </nav>
 
   </header>
+<body>
 
+  <form class="login-box">
+        <h1>LOGIN</h1>
+        <div class="textbox">
+          <i class="fas fa-user"></i>
+        <input type="text" name="userid"  placeholder="Username"/>
+        </div>
+        <div class="textbox">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="pss" placeholder="Password"/>
+        </div>
+        <input type="button" class="btn" onclick="check(this.form)" value="Sign in">
+        <input type="reset" class="btn" value="Cancel"/>
+    </form>
+    <script language="javascript">
 
+        function check(form) {
+            if(form.userid.value == "usama" && form.pss.value == "sem032") {
+                window.open('Main Page.html')
+
+            }
+            else if(form.userid.value == "AliSubhani" && form.pss.value == "sem020") {
+                window.open('Cases.html')
+            }
+            else if(form.userid.value == "Hammad" && form.pss.value == "sem025") {
+                window.open('Police Managment.html')
+            }
+            else {
+                alert("Error Password or Username")
+            }
+        }
+    </script>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>

@@ -66,13 +66,58 @@
 
 <body>
 
-    <div id="FIRbtn">
-    <a href="Fir Form Page.html"><button>FIR(+)</button></a>
-  </div>
+<div class="firRegForm"><h1>New Police Regitration Form</h1></div>
+<div class="main">
+  <form>
+    <div id="name">
+      <h2 class="name">Name</h2>
+      <input class="firstname" type="text" name="first_name"><br>
+      <label class="firstlabel">First Name</label>
+      <input class="lastname" type="text" name="last_name"><br>
+      <label class="lastlabel">Last Name</label>
+    </div>
 
-  <div id="FIRbtn2">
-  <a href="Fir Form Page.html"><button>FIR(-)</button></a>
+    <h2 class="name">CNIC#</h2>
+    <input class="cnic" type="text" name="cnic" placeholder="x x x x x - x x x x x x x- x">
+
+
+    <br><br><br>
+    <input class="age" type="text" name=".age" placeholder="18+">
+    <label class="sex"><i>AGE</i></label>
+    <input class="age" type="text" name="sex" placeholder="M / F">
+    <label class="sex"><i>SEX</i></label>
+
+    <h2 class="name">Contact</h2>
+    <input class="tel" type="text" name=".tel" placeholder="+92XX-1234567">
+    <label class"tel-number">TEL<i>(if any)</i></label>
+    <input class="number" type="text" name="phone" placeholder="+92XXX1234567">
+    <label class="phone-number">Phone Number</label>
+
+    <h2 class="name">Date</h2>
+    <input class="date" type="text" name="day" placeholder="Day">
+    <input class="date" type="text" name="month" placeholder="Month">
+    <input class="date" type="text" name="year" placeholder="Year">
+
+    <h2 class="name">Adress</h2>
+    <input class="adress" type="text" name=".adress"  placeholder="House#   Street#   Adress   City,   State   ZipCode">
+
+    <h2 class="name">Rank/Serving Station</h2>
+    <input class="rank" type="text" name="rank" placeholder="Rank">
+    <input class="station" type="text" name="station" placeholder="Station">
+
+    <label class="radio">
+    <input  type="radio"  checked="checked" name="">
+    <span class="checkmark"><i>I heard by that I have read all the above informatiom carefully</i></span>
+
+  </label>
+
+  <div class="submit">
+  <button type="submit">Register</button>
+  </div>
+  </form>
+
 </div>
+
 </body>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->

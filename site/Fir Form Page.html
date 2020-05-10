@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>CID</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
-<body>
+
   <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a href="Main Page.html" class="pull-left visible-md visible-lg">
+          <a href="index.html" class="pull-left visible-md visible-lg">
             <div id="logo-img"></div>
           </a>
 
           <div class="navbar-brand">
-            <a href="Main Page.html"><h1>CRIME INVESTIGATION DEPARTMENT</h1></a>
+            <a href="index.html"><h1>CRIME INVESTIGATION DEPARTMENT</h1></a>
             <p>
               <img src="images/tag_logo.png" alt="CID">
               <span ><h6 style="font-family: MinecrafterReg">WE SERVE HUMANITY</h6></span>
@@ -50,11 +50,11 @@
                 <span class="glyphicon glyphicon-folder-open"></span><br class="hidden-xs">Cases</a>
             </li>
             <li class="pointer_zoom">
-              <a href="Police Managment.html">
+              <a href="Login.html">
                 <span class="glyphicon glyphicon-user"></span><br class="hidden-xs">Police Manag</a>
             </li>
             <li class="pointer_zoom">
-              <a href="login.html">
+              <a href="Login.html">
                 <span class="glyphicon glyphicon-off"></span><br class="hidden-xs">Login</a>
               </li>
           </ul><!-- #nav-list -->
@@ -77,11 +77,16 @@
       <label class="lastlabel">Last Name</label>
     </div>
 
+    <h2 class="name">CNIC#</h2>
+    <input class="cnic" type="text" name="cnic" placeholder="x x x x x - x x x x x x x- x">
     <h2 class="name">Company</h2>
-    <input class="company" type="text" name="company">
+    <b><i><input class="company" type="text" name="company"  placeholder="if (any) "></i></b>
 
-    <h2 class="name">Email</h2>
-    <input class="email" type="text" name="email">
+    <br><br><br>
+    <input class="age" type="text" name=".age" placeholder="18+">
+    <label class="sex"><i>AGE</i></label>
+    <input class="age" type="text" name="sex" placeholder="M / F">
+    <label class="sex"><i>SEX</i></label>
 
     <h2 class="name">Contact</h2>
     <input class="tel" type="text" name=".tel" placeholder="+92XX-1234567">
@@ -89,6 +94,13 @@
     <input class="number" type="text" name="phone" placeholder="+92XXX1234567">
     <label class="phone-number">Phone Number</label>
 
+    <h2 class="name">Day</h2>
+    <input class="date" type="text" name="day" placeholder="Day">
+    <input class="date" type="text" name="month" placeholder="Month">
+    <input class="date" type="text" name="year" placeholder="Year">
+
+    <h2 class="name">Adress</h2>
+    <input class="adress" type="text" name=".adress"  placeholder="House#   Street#   Adress   City,   State   ZipCode">
     <h3 class="name">Crime</h3>
     <select class="option" name="subject">
       <option disabled="disabled" selected="selected">--Crime Type</option>
@@ -103,6 +115,10 @@
       <option> Cyber Crime</option>
       <option> Fraud</option>
     </select>
+
+    <h2 class="name">Crime Details</h2>
+    <input class="crime" type="text" name="crime"><br>
+
 
     <label class="radio">
     <input  type="radio"  checked="checked" name="">
