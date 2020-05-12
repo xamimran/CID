@@ -69,35 +69,19 @@
         <h1>LOGIN</h1>
         <div class="textbox">
           <i class="fas fa-user"></i>
-        <input type="text" name="userid"  placeholder="Username"/>
+        <input type="text" id="userid"  placeholder="Username"/>
         </div>
         <div class="textbox">
             <i class="fas fa-lock"></i>
-            <input type="password" name="pss" placeholder="Password"/>
+            <input type="password" id="pss" placeholder="Password"/>
         </div>
-        <input type="button" class="btn" onclick="check(this.form)" value="Sign in">
+        <input type="button" class="btn" onclick="check()" value="Sign in">
         <input type="reset" class="btn" value="Cancel"/>
     </form>
-    <script language="javascript">
 
-        function check(form) {
-            if(form.userid.value == "usama" && form.pss.value == "sem032") {
-                window.open('Main Page.html')
-
-            }
-            else if(form.userid.value == "AliSubhani" && form.pss.value == "sem020") {
-                window.open('Cases.html')
-            }
-            else if(form.userid.value == "Hammad" && form.pss.value == "sem025") {
-                window.open('Police Managment.html')
-            }
-            else {
-                alert("Error Password or Username")
-            }
-        }
-    </script>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/login.js"></script>
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
